@@ -2,6 +2,3 @@
 Collection of notes, challenges and projects from Stephen Grider's Modern React and Redux course.
 Course can be found here: https://www.udemy.com/react-redux/
 
-## Resources
-* https://codepen.io/sgrider/pen/yRWZEq: CodePen url for a tiny React App
-  * Need to add "react" and "react-dom" as libraries
