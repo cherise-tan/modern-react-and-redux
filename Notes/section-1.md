@@ -35,3 +35,9 @@
 ### Babel
 * Not all browsers have support for ES6
 * Babel is a command line tool that can take any version of JavaScript and generate a version that can be safely executed on any browser
+
+## JavaScript Module Systems
+### Initial React App Setup (index.js)
+* Import the React and ReactDOM libraries
+* Create a react component
+* Take the react component and show it on the screen
