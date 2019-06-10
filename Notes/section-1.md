@@ -29,7 +29,7 @@
 * Commands:
      * ```yarn start``` -> starts the development server
      * ```yarn build``` -> bundles the app into static files for production
-     * ```yarn test``` -> starts the test runner
+     * ```yarn test  -> starts the test runner
 * Dependencies include: Webpack, Babel, Dev Server
 
 ### Babel
@@ -39,5 +39,24 @@
 ## JavaScript Module Systems
 ### Initial React App Setup (index.js)
 * Import the React and ReactDOM libraries
+     * IMPORT vs REQUIRE:
+     * Use "import" statement when using 'ES2015 modules' system
+     * Use "require" statment when using 'CommonJS modules' system
+     ```
+     import React from 'react';
+     import ReactDOM from 'react-dom';
+     ```
 * Create a react component
+     * A component is a FUNCTION or CLASS, that produces HTML to show the user (using JSX) and handles feedback from the user (using Event Handlers)
+     ```
+     const App = () => {
+          return <div>Hi there!</div>
+}    ;
+     ```
 * Take the react component and show it on the screen
+     ```
+     ReactDOM.render(
+          <App/>,
+          document.querySelector('#root')
+     )
+     ```
